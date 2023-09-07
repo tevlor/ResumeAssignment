@@ -1,0 +1,66 @@
+/*
+https://coolors.co/a30015-bfb48f-f2efe9-252627-191919
+A30015 - red
+B49E6A - tan
+E6DBD0 - "almond"
+252627 - lighter black
+191919 - black basically
+link color: #aa515d - maybe change later, hard to read at footer
+*/
+
+/* Global styles
+-------------------------------------------------------*/
+body{
+    color: #191919;
+}
+img{
+    width: 300px;
+}
+a{
+    color: #920518;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* Profile
+-------------------------------------------------------*/
+header{
+    background: #A30015;
+    color: #e6dbd0;
+}
+/* Projects
+-------------------------------------------------------*/
+.projects{
+    background: #e6dbd0;
+}
+.project a{
+color: #A30015;
+}
+.projects .btn{
+    color: #e6dbd0;
+    background: #A30015;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects .btn:hover{
+    background: rgba(163, 0, 21, 80%);
+}
+/* Work Experience
+-------------------------------------------------------*/
+.work{
+    background: #b49e6a;
+}
+/* Education
+-------------------------------------------------------*/
+
+/* Contact styles
+-------------------------------------------------------*/
+footer{
+    background: #252627;
+    color: #e6dbd0;
+}
+footer a{
+    color: #e6dbd0;
+}
